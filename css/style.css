@@ -1,0 +1,152 @@
+* {box-sizing: border-box;}
+
+body {
+background-color: rgb(185, 241, 100);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.home-wrapper{
+  background: url("../images/background.jpg") no-repeat center top;
+  background-size: cover;
+  color: white;
+}
+
+header{
+  padding: 20px  10px;
+  width: 100%;
+}
+
+header nav{
+  float: right;
+  margin: top 20px;
+}
+
+header nav a{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 12px;
+  padding: 10px 15px;
+}
+
+header nav a.active{
+  background: #d8c024;
+  border-radius: 10px;
+}
+
+#principal{
+  text-align: center;
+  padding: 40px 50px 70px;
+}
+
+#principal p{
+  font-size: 20px;
+  font-weight: normal;
+}
+
+#principal .social{
+  margin-top: 60px;
+}
+
+#principal .social a{
+color: white;
+display: inline-block;
+border-radius: 90%;
+background-color: black;
+font-size:24px;
+font-weight: bold;
+height: 50 px;
+width: 50px;
+line-height: 50px;
+margin-right: 10px;
+-webkit-transition: all .2s;
+-moz-transition: all .2s;
+transition:all 2s;
+}
+
+#principal .social a:hover{
+  background-color: #f3ecbd;
+}
+
+#servicios .box{
+  display:inline-block;
+  text-align:center;
+  width: 90%;
+  border: 2px;
+  padding:30px;
+  
+}
+
+#productos{
+  background-color: rgb(238, 238, 101);
+}
+
+#productos .box{
+  display:inline-block;
+  text-align: center;
+  width: 40%;
+  padding:31px;
+  margin: 1%;
+  background-color: white;
+}
+
+portafolio .box img{
+  width: 100%;
+}
+
+#portafolio .box p{
+  color:black;
+  padding: 10px;
+}
+
+#contacto {
+  background-color: #303030;;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+#contacto h2{
+color:white
+}
+
+#contacto input{
+  padding: 20px;
+  width: 400px;
+  border: 6px solid rgb(235, 190, 42);
+  border-radius: 10px;
+}
+
+#contacto textarea{
+  margin: 20px 0;
+  padding: 20px;
+  width: 400px;
+}
+
+#contacto button{
+  background-color: #d8c024;
+  padding: 30px 60 px;
+  border-color: #d8c024;
+  border-radius: 3px;
+  color: white;
+  font-size: 32px;
+  line-height: 1;
+  font-weight: bold;
+}
+
+#footer {
+padding: 100px;
+text-align: center;
+font-size: 18px;
+}
+
+
+section {
+  padding: 80px 10px;
+}
+
+section h2{
+  font-size: 18px;
+  text-align: center;
+  margin-right: 80px;
+}
